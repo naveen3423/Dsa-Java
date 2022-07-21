@@ -9,7 +9,9 @@ public class Main extends Calculator{
         }
         catch (Exception e){
             e.printStackTrace();
+            System.out.println(e);
         }
+
     }
 
 }
